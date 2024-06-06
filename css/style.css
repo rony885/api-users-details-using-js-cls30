@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    /* background: khaki; */
+}
+#container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+#container .item{
+    width: 23%;
+    padding: 20px;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    background-color: rgba(184, 135, 11, 0.562);
+}
